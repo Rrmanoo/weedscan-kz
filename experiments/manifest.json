@@ -1,0 +1,126 @@
+[
+  {
+    "variant": "yolov26n-10class",
+    "checkpoint_available": true,
+    "epochs_logged": 100,
+    "peak_logged_mAP50": 0.96727,
+    "peak_logged_mAP50_epoch": 76,
+    "mAP50_95_at_peak_mAP50": 0.76256,
+    "file": "models/yolov26n-10class/best.pt",
+    "bytes": 5381438,
+    "sha256": "d31b2c284aee54308f375cce04924320d94a7f6c91cb0d14197a6fa61c8f33fe",
+    "class_names": [
+      "crop: xanthium strumarium",
+      "weed: amaranthus palmeri",
+      "weed: chenopodium album",
+      "weed: eclipta",
+      "weed: eleusine indica",
+      "weed: ipomoea indica",
+      "weed: physalis angulata",
+      "weed: portulaca oleracea",
+      "weed: senna obtusifolia",
+      "weed: taraxacum officinale"
+    ],
+    "checkpoint_header_strings": [
+      "date",
+      "2026-04-25T22:41:44.072504",
+      "version",
+      "8.4.9",
+      "license",
+      "AGPL-3.0 (https://ultralytics.com/license)",
+      "docs",
+      "https://docs.ultralytics.com",
+      "epoch",
+      "best_fitness",
+      "model"
+    ]
+  },
+  {
+    "variant": "yolov8n-15class",
+    "checkpoint_available": true,
+    "epochs_logged": 100,
+    "peak_logged_mAP50": 0.83318,
+    "peak_logged_mAP50_epoch": 80,
+    "mAP50_95_at_peak_mAP50": 0.70096,
+    "file": "models/yolov8n-15class/best.pt",
+    "bytes": 6242659,
+    "sha256": "a2ee1d55d9222fc1ae7479613ed95924d6fa060f1639e1da70fdc309b83334a4",
+    "class_names": [
+      "crop: xanthium strumarium",
+      "weed: amaranthus palmeri",
+      "weed: amaranthus tuberculatus",
+      "weed: ambrosia artemisiifolia",
+      "weed: chenopodium album",
+      "weed: eclipta",
+      "weed: eleusine indica",
+      "weed: euphorbia maculata",
+      "weed: ipomoea indica",
+      "weed: mollugo verticillata",
+      "weed: physalis angulata",
+      "weed: portulaca oleracea",
+      "weed: senna obtusifolia",
+      "weed: sida rhombifolia",
+      "weed: taraxacum officinale"
+    ],
+    "checkpoint_header_strings": [
+      "date",
+      "2026-02-01T19:13:55.552908",
+      "version",
+      "8.4.9",
+      "license",
+      "AGPL-3.0 (https://ultralytics.com/license)",
+      "docs",
+      "https://docs.ultralytics.com",
+      "epoch",
+      "best_fitness",
+      "model"
+    ]
+  },
+  {
+    "variant": "yolov8n-5class",
+    "checkpoint_available": true,
+    "epochs_logged": 100,
+    "peak_logged_mAP50": 0.90701,
+    "peak_logged_mAP50_epoch": 64,
+    "mAP50_95_at_peak_mAP50": 0.59457,
+    "file": "models/yolov8n-5class/best.pt",
+    "bytes": 6243626,
+    "sha256": "2c32baa1554719a151b8f27ebd99777e4487d15d735d9958624f2c84e3c4b27a",
+    "class_names": [
+      "weed: chenopodium album",
+      "weed: amaranthus tuberculatus",
+      "weed: taraxacum officinale",
+      "crop: xanthium strumarium",
+      "weed: amaranthus palmeri"
+    ],
+    "checkpoint_header_strings": [
+      "date",
+      "2025-05-22T21:48:12.508335",
+      "version",
+      "8.3.142",
+      "license",
+      "AGPL-3.0 (https://ultralytics.com/license)",
+      "docs",
+      "https://docs.ultralytics.com",
+      "epoch",
+      "best_fitness",
+      "model"
+    ]
+  },
+  {
+    "variant": "yolov8l-10class",
+    "checkpoint_available": false,
+    "epochs_logged": 100,
+    "peak_logged_mAP50": 0.97169,
+    "peak_logged_mAP50_epoch": 78,
+    "mAP50_95_at_peak_mAP50": 0.79505
+  },
+  {
+    "variant": "yolov26l-10class",
+    "checkpoint_available": false,
+    "epochs_logged": 100,
+    "peak_logged_mAP50": 0.977,
+    "peak_logged_mAP50_epoch": 80,
+    "mAP50_95_at_peak_mAP50": 0.79327
+  }
+]

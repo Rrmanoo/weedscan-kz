@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeedScan KZ — AI Weed Detection for Kazakhstan Agriculture</title>
+    <meta name="description" content="AI-powered weed detection and field mapping for Kazakhstan's agricultural regions. Explore trained YOLO plant detectors, a field-sampling grid, and image-based coverage analytics." />
+    <meta name="author" content="Arman Nurken" />
+
+    <meta property="og:title" content="WeedScan KZ — AI Weed Detection for Kazakhstan Agriculture" />
+    <meta property="og:description" content="AI-powered weed detection and field mapping for Kazakhstan's agricultural regions. Explore trained YOLO plant detectors, a field-sampling grid, and image-based coverage analytics." />
+    <meta property="og:type" content="website" />
+    <!-- GitHub Pages SPA redirect -->
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

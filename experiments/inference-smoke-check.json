@@ -1,0 +1,68 @@
+[
+  {
+    "variant": "yolov8n-5class",
+    "class_count": 5,
+    "class_names": {
+      "0": "weed: chenopodium album",
+      "1": "weed: amaranthus tuberculatus",
+      "2": "weed: taraxacum officinale",
+      "3": "crop: xanthium strumarium",
+      "4": "weed: amaranthus palmeri"
+    },
+    "detections": 2,
+    "input_shape": [
+      1824,
+      1368
+    ],
+    "parameters": 3006623
+  },
+  {
+    "variant": "yolov26n-10class",
+    "class_count": 10,
+    "class_names": {
+      "0": "crop: xanthium strumarium",
+      "1": "weed: amaranthus palmeri",
+      "2": "weed: chenopodium album",
+      "3": "weed: eclipta",
+      "4": "weed: eleusine indica",
+      "5": "weed: ipomoea indica",
+      "6": "weed: physalis angulata",
+      "7": "weed: portulaca oleracea",
+      "8": "weed: senna obtusifolia",
+      "9": "weed: taraxacum officinale"
+    },
+    "detections": 0,
+    "input_shape": [
+      1824,
+      1368
+    ],
+    "parameters": 2376786
+  },
+  {
+    "variant": "yolov8n-15class",
+    "class_count": 15,
+    "class_names": {
+      "0": "crop: xanthium strumarium",
+      "1": "weed: amaranthus palmeri",
+      "2": "weed: amaranthus tuberculatus",
+      "3": "weed: ambrosia artemisiifolia",
+      "4": "weed: chenopodium album",
+      "5": "weed: eclipta",
+      "6": "weed: eleusine indica",
+      "7": "weed: euphorbia maculata",
+      "8": "weed: ipomoea indica",
+      "9": "weed: mollugo verticillata",
+      "10": "weed: physalis angulata",
+      "11": "weed: portulaca oleracea",
+      "12": "weed: senna obtusifolia",
+      "13": "weed: sida rhombifolia",
+      "14": "weed: taraxacum officinale"
+    },
+    "detections": 1,
+    "input_shape": [
+      1824,
+      1368
+    ],
+    "parameters": 3008573
+  }
+]
